@@ -1,0 +1,22 @@
+.example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    align-items: flex-start;
+  }
+  
+  .example-radio-button {
+    margin: 5px;
+  }
+
+  ::ng-deep .mat-internal-form-field {
+        display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+
+  .selectedValue {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 500px;
+ }

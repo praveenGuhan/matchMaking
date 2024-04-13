@@ -1,0 +1,6 @@
+<mat-radio-group
+  aria-labelledby="example-radio-group-label"
+  class="example-radio-group"
+  [(ngModel)]="favoriteSeason">
+    <mat-radio-button class="example-radio-button w-100" [value]="season" *ngFor="let season of seasons" (click)="radioSelect(season)" [ngClass]="{'selectedValue':selectedValue==season}">{{season}}</mat-radio-button>
+</mat-radio-group>
